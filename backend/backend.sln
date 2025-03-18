@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamental", "Fundamental"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamental", "src\Fundamental\Fundamental\Fundamental.csproj", "{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Communication", "Communication", "{15826645-AFCA-4659-935E-16E4D4A6131F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication", "src\Communication\Communication\Communication.csproj", "{C2221915-1885-426D-AC4A-FD770469CE6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,11 +24,17 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{82318214-1387-4420-AAA8-DF7164A0E502} = {6904F0A3-1B91-479E-B14D-15AFB5446F2F}
 		{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12} = {82318214-1387-4420-AAA8-DF7164A0E502}
+		{15826645-AFCA-4659-935E-16E4D4A6131F} = {6904F0A3-1B91-479E-B14D-15AFB5446F2F}
+		{C2221915-1885-426D-AC4A-FD770469CE6E} = {15826645-AFCA-4659-935E-16E4D4A6131F}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2221915-1885-426D-AC4A-FD770469CE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2221915-1885-426D-AC4A-FD770469CE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2221915-1885-426D-AC4A-FD770469CE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2221915-1885-426D-AC4A-FD770469CE6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
