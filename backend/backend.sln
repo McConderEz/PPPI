@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -13,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{48035A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile", "src\Mobile\Mobile\Mobile.csproj", "{880A2634-0192-4F09-9C67-2D6ECAB6F58B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{271EA177-D65F-4ACF-A294-4085922E24D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "src\Admin\Admin\Admin.csproj", "{43252268-BC45-4B4D-A3AF-C8C40A99C422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +29,8 @@ Global
 		{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12} = {82318214-1387-4420-AAA8-DF7164A0E502}
 		{48035AED-00A5-4376-A4A1-6B6F4C6231DC} = {6904F0A3-1B91-479E-B14D-15AFB5446F2F}
 		{880A2634-0192-4F09-9C67-2D6ECAB6F58B} = {48035AED-00A5-4376-A4A1-6B6F4C6231DC}
+		{271EA177-D65F-4ACF-A294-4085922E24D7} = {6904F0A3-1B91-479E-B14D-15AFB5446F2F}
+		{43252268-BC45-4B4D-A3AF-C8C40A99C422} = {271EA177-D65F-4ACF-A294-4085922E24D7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{18B0CF5C-EF3B-4328-A830-DDB1BAC96B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +41,10 @@ Global
 		{880A2634-0192-4F09-9C67-2D6ECAB6F58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{880A2634-0192-4F09-9C67-2D6ECAB6F58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{880A2634-0192-4F09-9C67-2D6ECAB6F58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43252268-BC45-4B4D-A3AF-C8C40A99C422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43252268-BC45-4B4D-A3AF-C8C40A99C422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43252268-BC45-4B4D-A3AF-C8C40A99C422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43252268-BC45-4B4D-A3AF-C8C40A99C422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
+
