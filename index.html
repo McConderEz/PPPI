@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Платформа для онлайн-обучения</title>
+  <style>
+    /* Общие стили */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Шапка */
+    header {
+      background: linear-gradient(120deg, #4b6cb7, #182848);
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffdd57;
+    }
+
+    /* Основной контент */
+    main {
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #4b6cb7;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    ol, ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Кнопки для скачивания */
+    .download-button {
+      display: inline-block;
+      background-color: #4b6cb7;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #182848;
+    }
+
+    /* Подвал */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer p {
+      font-size: 14px;
+    }
+
+    /* Прокрутка к разделам */
+    .section {
+      margin-bottom: 40px;
+    }
+    .section-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Платформа для онлайн-обучения</h1>
+    <nav>
+      <ul>
+        <li><a href="#description">Описание проекта</a></li>
+        <li><a href="#previous-works">Предыдущие работы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Описание проекта -->
+    <div class="section" id="description">
+      <h2>Описание проекта</h2>
+      <p>
+        Данная платформа предоставляет пользователям доступ к обучающим курсам, позволяя преподавателям загружать свои материалы и управлять курсами, а студентам — учиться в удобном для них темпе.
+      </p>
+    </div>
+
+    <!-- Модули проекта -->
+    <div class="section" id="modules">
+      <h2>Модули проекта</h2>
+      <ol>
+        <li>
+          <div class="section-title">Регистрация и аутентификация пользователей</div>
+          <p>
+            Пользователи могут регистрироваться как студенты или преподаватели. Реализована возможность входа через социальные сети и двухфакторная аутентификация для повышения безопасности.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Профили пользователей</div>
+          <p>
+            Пользователи могут создавать и редактировать свои профили, добавлять информацию о себе, своих интересах и навыках, что помогает другим участникам сообщества лучше их узнать.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Каталог курсов</div>
+          <p>
+            Преподаватели могут создавать и управлять курсами, добавляя описание, материалы, видео и задания. Студенты могут просматривать доступные курсы и записываться на них.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Система оценок и отзывов</div>
+          <p>
+            Студенты могут оставлять отзывы и оценки курсам и преподавателям. Это помогает другим пользователям выбрать подходящий курс и повышает качество обучения.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Система управления заданиями</div>
+          <p>
+            Преподаватели могут создавать задания для студентов, а студенты могут загружать свои работы и получать оценки. Это способствует более глубокому пониманию материала.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Форум и обсуждения</div>
+          <p>
+            Встроенный форум позволяет пользователям обсуждать курсы, задавать вопросы и делиться опытом, создавая активное сообщество вокруг обучения.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Календарь курсов</div>
+          <p>
+            Календарь отображает расписание курсов, вебинаров и дедлайнов по заданиям, позволяя пользователям планировать свое время и не пропускать важные события.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Система уведомлений</div>
+          <p>
+            Уведомления информируют пользователей о новых курсах, изменениях в расписании, ответах на вопросы и новых заданиях, что позволяет быть в курсе всех событий.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Административная панель</div>
+          <p>
+            Модуль для администраторов, позволяющий управлять пользователями и курсами, просматривать статистику и проводить модерацию контента на платформе.
+          </p>
+        </li>
+        <li>
+          <div class="section-title">Мобильное приложение</div>
+          <p>
+            Разработка мобильного приложения для доступа к платформе, просмотра курсов и выполнения заданий, что обеспечивает удобство использования на ходу.
+          </p>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Предыдущие работы -->
+    <div class="section" id="previous-works">
+      <h2>Предыдущие работы</h2>
+      <ul>
+        <li><a class="download-button" href="ПППИ 1 Рустамов.docx" download>Скачать ПППИ 1 Рустамов.docx</a></li>
+        <li><a class="download-button" href="ПППИ 2 Рустамов.docx" download>Скачать ПППИ 2 Рустамов.docx</a></li>
+        <li><a class="download-button" href="ПППИ 3 Рустамов.docx" download>Скачать ПППИ 3 Рустамов.docx</a></li>
+        <li><a class="download-button" href="ПППИ 4 Рустамов.docx" download>Скачать ПППИ 4 Рустамов.docx</a></li>
+        <li><a class="download-button" href="ПППИ 5 Рустамов.docx" download>Скачать ПППИ 5 Рустамов.docx</a></li>
+      </ul>
+    </div>
+
+    <!-- Контакты -->
+    <div class="section" id="contacts">
+      <h2>Контакты</h2>
+      <p>Если у вас есть вопросы или предложения, свяжитесь со мной:</p>
+      <p>Email: rustamov.vladislav@gmail.com</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Платформа для онлайн-обучения. Все права защищены.</p>
+  </footer>
+
+  <script>
+    // Плавная прокрутка к якорям
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
